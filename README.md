@@ -1,6 +1,28 @@
 # Skill First Labs Assignment
 
-This repository contains two beginner-friendly Python projects built as part of the Skill First Labs assignment.
+## Milestone 1: CSS Parser
+
+Reads a CSS file and extracts selectors, property names, and values into structured Python dictionaries and JSON. Uses the `tinycss2` library for parsing.
+
+See [milestone1-css-parser/README.md](milestone1-css-parser/README.md) for details.
+
+## Milestone 2: Simple AI Agent with Tools
+
+A command-line AI agent that routes questions to the appropriate tool:
+- **Knowledge Search** — Looks up facts from a JSON knowledge base.
+- **Calculator** — Performs safe arithmetic operations.
+
+Uses LangGraph for workflow routing (with a simple Python fallback).
+
+See [milestone2-ai-agent/README.md](milestone2-ai-agent/README.md) for details.
+
+## Dependencies
+
+| Package | Purpose |
+|---|---|
+| `tinycss2` | CSS parsing library |
+| `langgraph` | Graph-based workflow routing |
+| `python-dotenv` | Load environment variables from `.env` |
 
 ## Project Structure
 
@@ -64,30 +86,6 @@ Or using unittest:
 python -m unittest discover -s tests -v
 ```
 
-## Milestone 1: CSS Parser
-
-Reads a CSS file and extracts selectors, property names, and values into structured Python dictionaries and JSON. Uses the `tinycss2` library for parsing.
-
-See [milestone1-css-parser/README.md](milestone1-css-parser/README.md) for details.
-
-## Milestone 2: Simple AI Agent with Tools
-
-A command-line AI agent that routes questions to the appropriate tool:
-- **Knowledge Search** — Looks up facts from a JSON knowledge base.
-- **Calculator** — Performs safe arithmetic operations.
-
-Uses LangGraph for workflow routing (with a simple Python fallback).
-
-See [milestone2-ai-agent/README.md](milestone2-ai-agent/README.md) for details.
-
-## Dependencies
-
-| Package | Purpose |
-|---|---|
-| `tinycss2` | CSS parsing library |
-| `langgraph` | Graph-based workflow routing |
-| `python-dotenv` | Load environment variables from `.env` |
 
 ## Author
-
-Built for the Skill First Labs assignment.
+Rajkumar M
