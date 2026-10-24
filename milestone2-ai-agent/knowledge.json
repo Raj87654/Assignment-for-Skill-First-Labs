@@ -1,0 +1,23 @@
+{
+    "college_name": "TechVista Institute of Technology",
+    "location": "Bangalore, India",
+    "founded": 2015,
+    "programs": [
+        {
+            "name": "B.Tech Computer Science",
+            "duration": "4 years",
+            "annual_fee": 150000
+        },
+        {
+            "name": "M.Tech AI and ML",
+            "duration": "2 years",
+            "annual_fee": 200000
+        }
+    ],
+    "internship_partners": ["Google", "Microsoft", "Amazon", "Infosys"],
+    "total_students": 5000,
+    "placement_rate": "92%",
+    "highest_package": "45 LPA",
+    "average_package": "12 LPA",
+    "campus_facilities": ["Library", "Sports Complex", "AI Research Lab", "Hostel"]
+}
